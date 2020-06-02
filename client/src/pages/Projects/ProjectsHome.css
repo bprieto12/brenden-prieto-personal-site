@@ -1,0 +1,32 @@
+
+/*.ProjectsHomeBody {
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+}*/
+
+.TopicNav {
+	text-align: left;
+	float: left;
+	border-radius: 1px solid gray;
+	padding: 10px;
+	width: 20%;
+}
+
+.ProjectContent {
+	/*width: 100%;*/
+	text-align: left;
+}
+
+.ProjectsHomeBody::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.Projects::after {
+	content: "";
+	clear: both;
+	display: table;
+}

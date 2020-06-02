@@ -1,0 +1,36 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"title": "Air Quality Analytics",
+			"img_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnet.com%2Fhow-to%2Fair-quality-index-what-to-do-when-the-air-quality-is-bad-in-your-area%2F&psig=AOvVaw0x3N0Zvis6r3DRFCMfJ44P&ust=1579644564851000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNikkeaYk-cCFQAAAAAdAAAAABAD",
+			"description": "Historical Air Quality by Region",
+			"created-date": "2020-01-20",
+			"link": ""
+		},
+		{
+			"id": 2,
+			"title": "Transparent California Analytics Dashboard",
+			"img_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnonprofitquarterly.org%2Freconsidering-executive-pay-nonprofits-think-compensation%2F&psig=AOvVaw1Wii87gtaa6qQ_XL4vlG1h&ust=1579644799691000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJC1iMuZk-cCFQAAAAAdAAAAABAD",
+			"description": "Profiles of the salaries and jobs of California state employees",
+			"created-date": "2020-01-20",
+			"link": ""
+		},
+		{
+			"id": 3,
+			"title": "Neighborhood Facts",
+			"img_url": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.familytravelguide.ca%2Fblog%2Ffrom-neighbourhood-to-playbourhood%2F&psig=AOvVaw0jAbwdVPi2HHopxWRsltPe&ust=1579644936236000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOikqo2ak-cCFQAAAAAdAAAAABAD",
+			"description": "Profile of a neighborhood: the crime stats, the air quality, surrounding industry, night life, etc.",
+			"created-date": "2020-01-20",
+			"link": ""
+		},
+		{
+			"id": 4,
+			"title": "Guitar Allan Peng",
+			"img_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.musiciansfriend.com%2Fthehub%2Fchoosing-an-acoustic-guitar&psig=AOvVaw35TIX2C2OOHq8BU8vTwN57&ust=1580716840908000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj8mKCzsucCFQAAAAAdAAAAABAG",
+			"description": "Undergraduate course project.  None of my project partners knew how to play a guitar so we taught a guitar to play one in two weeks.",
+			"created-date": "2016-12-20",
+			"link": ""
+		}
+	]
+}

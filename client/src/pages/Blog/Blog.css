@@ -1,0 +1,39 @@
+.Blog:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.TopicNav {
+	text-align: left;
+	float: left;
+	border-radius: 1px solid gray;
+	padding: 10px;
+	width: 20%;
+}
+
+.Posts {
+	float: left;
+	width: 60%;
+	text-align: left;
+}
+
+.PostFilters {
+	float: left;
+	width: 18%;
+	/*border: 1px solid lightgray;*/
+	padding: 5px;
+	text-align: right;
+	margin-left: 10px;
+	border-radius: 5px;
+
+}
+
+input {
+	width: 80%;
+}
+
+li:hover {
+	text-decoration: underline;
+	color: blue;
+}

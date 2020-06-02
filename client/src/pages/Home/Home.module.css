@@ -1,0 +1,114 @@
+/*
+	Blackish: #17252A
+	Dark Turquoise: #2B7A78;
+	Turquoise: #3AAFA9;
+	Greyish-white: #DEF2F1;
+	White: #FEFFFF;
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+.Home {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	text-align: left;
+	font-family: "Open Sans";
+	min-height: 960px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.Home::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.textSize {
+	font-size: 48px;
+}
+
+.PersonalityWord {
+	color: #3AAFA9;
+	font-weight: bold;
+}
+
+.home-icon {
+	border-radius: 50%;
+	background-color: #3AAFA9;
+	color: white;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 30px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.personal-excerpt {
+	width: 33%;
+	float: left;
+	text-align: left;
+	padding: 20px;
+
+/*	font-size: 30px;*/
+	/*text-align: left;*/
+}
+
+.content-section {
+	width: 33%;
+	float: left;
+	padding: 20px;
+
+}
+
+.content-box {
+	padding: 10px;
+	/*border: 1px solid gray;*/
+	border-radius: 5px
+}
+
+.right-side {
+	width: 33%;
+	float: left;
+	padding: 20px;
+
+}
+
+.Description {
+	margin-top: 50px;
+}
+
+.Button {
+	width: 130px;
+	height: 40px;
+	padding-top: 7px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #3AAFA9;
+	background-image: linear-gradient(#3AAFA9, #1d5c59); 
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.personal-excerpt {
+		width: 100%;
+		float: none;
+		position: default;
+		text-align: center;
+		margin-bottom: 10px;
+		top: 0;
+	}
+
+	.content-section {
+		width: 100%;
+		float: none;
+	}
+
+	.right-side {
+		width: 33%;
+	}
+}

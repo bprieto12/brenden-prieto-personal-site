@@ -1,0 +1,18 @@
+
+.PersonalPhoto {
+	float: left;
+	width: 40%;
+}
+
+.AboutSummary {
+	float: left;
+	width: 60%;
+	padding-left: 100px;
+	text-align: left;
+}
+
+.Intro:after {
+	content: "";
+	clear: both;
+	display: table;
+}

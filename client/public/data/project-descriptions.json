@@ -1,0 +1,40 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"title": "Air Quality Analytics",
+			"img_url": "./img/air2.jpeg",
+			"description": "Historical Air Quality by Region",
+			"category": "Data Analysis",
+			"created-date": "2020-01-20",
+			"link": ""
+		},
+		{
+			"id": 2,
+			"title": "Transparent California Analytics Dashboard",
+			"img_url": "./img/salary.jpg",
+			"description": "Profiles of the salaries and jobs of California state employees",
+			"category": "Data Analysis",
+			"created-date": "2020-01-20",
+			"link": ""
+		},
+		{
+			"id": 3,
+			"title": "Neighborhood Facts",
+			"img_url": "./img/neighborhood.jpeg",
+			"description": "Profile of a neighborhood: the crime stats, the air quality, surrounding industry, night life, etc.",
+			"category": "Data Analysis",
+			"created-date": "2020-01-20",
+			"link": ""
+		},
+		{
+			"id": 4,
+			"title": "Guitar Allan Peng",
+			"img_url": "./img/guitar.jpeg",
+			"description": "Undergraduate course project.  None of my project partners knew how to play a guitar so we taught a guitar to play one in two weeks.",
+			"category": "Automation",
+			"created-date": "2016-12-20",
+			"link": ""
+		}
+	]
+}

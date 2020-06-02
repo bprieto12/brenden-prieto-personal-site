@@ -1,0 +1,44 @@
+/*
+	Blackish: #17252A
+	Dark Turquoise: #2B7A78;
+	Turquoise: #3AAFA9;
+	Greyish-white: #DEF2F1;
+	White: #FEFFFF;
+*/
+
+
+.Header {
+	background-color: #fff;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	font-size: 16px;
+	z-index: 20;
+}
+
+.Header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Header li {
+	display: inline-block;
+	margin: 24px;
+}
+
+.Header a {
+	text-decoration: none;
+	color: #616E7C;
+}
+
+.Header a:active,
+.Header a:hover {
+	color: #03449E;
+}
+
+
+.app-title {
+	/*padding: 10px;*/
+	color: #FEFFFF;
+}
