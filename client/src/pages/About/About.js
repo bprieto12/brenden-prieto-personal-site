@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import PageStyle from '../../hoc/PageStyle';
 import './About.css';
-
+import globalStyles from '../../global/styles.module.css';
 
 class About extends Component {
 	render() {
@@ -12,9 +12,9 @@ class About extends Component {
 						<img src="https://via.placeholder.com/150" />
 					</div> */}
 					<div className="AboutSummary">
-						<h2 style={{color: '#3AAFA9'}}>About Me</h2>
+						<h2 className={globalStyles.primaryColorDark}>About Me</h2>
 						<hr />
-						<p>
+						<p className={globalStyles.primaryTextColor}>
 							Hi, I'm Brenden Prieto.  I'm a web developer and data analyst living in Southern California, and  
 							I'm passionate about making technology simple, useful, and attractive.  
 							I graduated from UC Berkeley with a Bachelors in Electrical Engineering and Computer Science.
