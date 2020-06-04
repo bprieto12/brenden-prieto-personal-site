@@ -13,7 +13,7 @@ app.disable('x-powered-by');
 app.use(compression());
 app.use(morgan('common'));
 
-app.use(express.static(path.resolve(__dirname, 'client/build')));
+// app.use(express.static(path.resolve(__dirname, 'client/build')));
 console.log(PORT);
 // app.get('/*', (req, res) => {
 //     console.log(PORT);
