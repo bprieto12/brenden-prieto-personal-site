@@ -1,4 +1,3 @@
-const { createServer } = require("http");
 const express = require('express');
 const app = express();
 const normalizePort = port => parseInt(port, 10);
@@ -16,20 +15,22 @@ app.use(morgan('common'));
 
 app.use(express.static(path.resolve(__dirname, 'client/build')));
 console.log(PORT);
-app.get('/*', (req, res) => {
-    console.log(PORT);
-    console.log(path.resolve(__dirname, 'client/build', 'index.html'));
-    res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
-});
+// app.get('/*', (req, res) => {
+//     console.log(PORT);
+//     console.log(path.resolve(__dirname, 'client/build', 'index.html'));
+//     res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
+// });
+
+app.get("/api/test", (req, res) => {
+    res.json({"test": "message"});
+})
 // }
 
 // if (dev) {
 //     app.use(morgan('dev'));
 // }
 
-const server = createServer(app);
-
-server.listen(PORT, err => {
+app.listen(PORT, err => {
     if (err) throw err;
 
     console.log("Server started");
