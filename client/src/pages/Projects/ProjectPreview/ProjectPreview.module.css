@@ -1,52 +1,32 @@
 .ProjectPreview {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	/*padding-bottom: 10px;*/
-	/*border: 1px solid #888;*/
-
-	float: left;
-	width: 21em;
-	height: 20em;
-	margin-left: 5px;
-	margin-right: 5px;
-
-	/*width: 20em;*/
-	/*height: 20em;*/
-	/*margin: 10px;*/
-	/*border-radius: 5px;*/
-	/*box-shadow: 1px 1px 2px 2px #C0C0C0;*/
+	display: inline-block;
+	overflow: hidden;
+	width: 300px;
+	height: 500px;
+	margin-left: 24px;
+	margin-right: 24px;
 }
 
-.ProjectPreview:hover {
-	border: 1px solid #c0c0c0;
-}
-
-.ProjectPreview:nth-child(1),
-.ProjectPreview:nth-child(4) {
-	margin-left: 0px;
-}
 
 .PreviewDetails {
-	text-align: left;
-	height: 40%;
-	padding: 10px;
-	
-	color: gray;
-	background-color: white;
+	margin-top: 24px;
+} 
 
-	/*color: #17252A;*/
-}
 
 .Content {
-	font-family: "Franklin Gothic";
-	font-size: 13px;
+	/* font-family: "Franklin Gothic"; */
+	font-size: 14px;
 }
 
-.ProjectTitle {
-	color: #3AAFA9;
-}
 
 img {
-	width: 100%;
-	height: 60%;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.ProjImgContainer {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 }

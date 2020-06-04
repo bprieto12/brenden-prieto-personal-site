@@ -11,6 +11,10 @@
 	text-align: left;
 }
 
+.Intro {
+	min-height: 960px;
+}
+
 .Intro:after {
 	content: "";
 	clear: both;

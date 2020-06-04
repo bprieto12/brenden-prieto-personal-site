@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import "./ProjectsHome.css";
 import ProjectPreview from './ProjectPreview/ProjectPreview';
 import PageStyle from '../../hoc/PageStyle';
-
+import globalStyles from '../../global/styles.module.css';
 
 // <div className="TopicNav">
 // 						<ul style={{listStyleType: "none"}}>
@@ -37,17 +37,16 @@ class ProjectsHome extends Component {
 	render() {
 		return (
 			<PageStyle>
-				<div className="ProjectsHomeBody">
-					
-					<div className="ProjectContent">
-						<h2>Projects</h2>
+				{/* <div className="ProjectsHomeBody"> */}
+					{/* <div className="ProjectContent"> */}
+						<h2 className={globalStyles.primaryColorDark}>Projects</h2>
 						<div className="Projects">
-						{this.state.projects.map(project => {
-							return <ProjectPreview key={project.id} project_details={project} />;
-						})}
+							{this.state.projects.map(project => {
+								return <ProjectPreview key={project.id} project_details={project} />;
+							})}
 						</div>
-					</div>
-				</div>
+					{/* </div> */}
+				{/* </div> */}
 			</PageStyle>
 		);
 	}
