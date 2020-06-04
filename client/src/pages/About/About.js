@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import PageStyle from '../../hoc/PageStyle';
 import './About.css';
 
@@ -8,20 +8,22 @@ class About extends Component {
 		return (
 			<PageStyle>
 				<div className="Intro">
-					<div className="PersonalPhoto">
+					{/* <div className="PersonalPhoto">
 						<img src="https://via.placeholder.com/150" />
-					</div>
+					</div> */}
 					<div className="AboutSummary">
 						<h2 style={{color: '#3AAFA9'}}>About Me</h2>
 						<hr />
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Hi, I'm Brenden Prieto.  I'm a web developer and data analyst living in Southern California, and  
+							I'm passionate about making technology simple, useful, and attractive.  
+							I graduated from UC Berkeley with a Bachelors in Electrical Engineering and Computer Science.
+							And while that might suggest I've always loved technology
+							growing up, my home computer intimidated me. 
+							Today, my guiding line for every project is, "what would make young me feel comfortable using this" 
+							and my passion is the journey to find the answer.
 						</p>
 					</div>
-				</div>
-				<div className="Skills">
-				</div>
-				<div className="Interests">
 				</div>
 			</PageStyle>
 		);
