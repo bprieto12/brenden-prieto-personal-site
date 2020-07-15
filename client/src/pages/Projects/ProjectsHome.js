@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import { Route, Redirect } from 'react-router';
 import axios from 'axios';
 import "./ProjectsHome.css";
 import ProjectPreview from './ProjectPreview/ProjectPreview';
@@ -28,8 +29,8 @@ class ProjectsHome extends Component {
 		// url.searchParams.set('distance', 25)
 		// url.searchParams.set('API_KEY', '415756C8-4AE4-49DD-A14C-82E18507334E');
 
-		axios.get('./data/project-descriptions.json').then(response => {
-			console.log(response)
+		axios.get('/api/personalProjects').then(response => {
+			console.log(response);
 			this.setState({projects: response.data.data});
 		});
 	}
@@ -38,14 +39,14 @@ class ProjectsHome extends Component {
 		return (
 			<PageStyle>
 				{/* <div className="ProjectsHomeBody"> */}
-					{/* <div className="ProjectContent"> */}
+					<div className="ProjectContent">
 						<h2 className={globalStyles.primaryColorDark}>Projects</h2>
 						<div className="Projects">
 							{this.state.projects.map(project => {
 								return <ProjectPreview key={project.id} project_details={project} />;
 							})}
 						</div>
-					{/* </div> */}
+					</div>
 				{/* </div> */}
 			</PageStyle>
 		);

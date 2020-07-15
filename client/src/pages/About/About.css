@@ -1,22 +1,24 @@
 
-.PersonalPhoto {
+/* .PersonalPhoto {
 	float: left;
 	width: 40%;
-}
+} */
 
 .AboutSummary {
-	float: left;
+	/* float: left;
 	width: 60%;
-	padding-left: 100px;
+	padding-left: 100px; */
 	text-align: left;
 }
 
 .Intro {
 	min-height: 960px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
-.Intro:after {
+/* .Intro:after {
 	content: "";
 	clear: both;
 	display: table;
-}
+} */

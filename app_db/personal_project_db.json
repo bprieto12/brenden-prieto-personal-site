@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "project-name": "simple-stock-analysis",
+            "title": "Simple Stock Analysis",
+            "img_url": "/api/img/0",
+            "description": "A stock app with more context than the average",
+            "created-date": "2020-07-10",
+            "link": "https://simple-stock-comparison.herokuapp.com/",
+            "github": "https://github.com/bprieto12/stock-comparison-tool"
+        },
+        {
+            "id": 1,
+            "project-name": "outlet",
+            "title": "OUTLET",
+            "img_url": "/api/img/1",
+            "description": "A webapp that allows electric vehicle owners to search for nearby homes where they can charge their car",
+            "created-date": "2020-01-20",
+            "link": "http://outletprototype.web.illinois.edu/",
+            "github": "https://github.com/bprieto12/cs-411-project"
+        },
+        {
+            "id": 2,
+            "project-name": "guitar-allen-peng",
+            "title": "Guitar Allan Peng",
+            "img_url": "/api/img/2",
+            "description": "Undergraduate course project.  None of my project partners knew how to play a guitar so we taught a guitar to play one in two weeks.",
+            "created-date": "2016-12-20",
+            "link": "",
+            "github": "https://github.com/bprieto12/149_project"
+        }
+    ]
+}

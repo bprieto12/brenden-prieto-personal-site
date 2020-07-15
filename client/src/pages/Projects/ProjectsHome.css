@@ -14,16 +14,16 @@
 	width: 20%;
 }
 
-/* .ProjectContent {
-	width: 100%;
-	margin: auto;
-} */
+.ProjectContent {
+	margin-left: 15%;
+	margin-right: 15%;
+}
 
-.ProjectsHomeBody::after {
+/* .ProjectsHomeBody::after {
 	content: "";
 	clear: both;
 	display: table;
-}
+} */
 
 .Projects {
 	margin-top: 54px;
