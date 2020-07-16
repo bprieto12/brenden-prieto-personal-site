@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 }
 
-
 .PageStyle {
 	background-color: #F5F7FA;
 }
@@ -11,4 +10,10 @@
 	width: 80%;
 	margin: auto;
 	padding-top: 40px;
+}
+
+@media (max-width: 800px) {
+	.PageWidth {
+		width: 95%;
+	}
 }

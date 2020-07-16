@@ -11,7 +11,7 @@ class Home extends Component {
 				<div className={styles.Home}>
 					<h1 className={[globalStyles.primaryTextColor, styles.textSize].join(" ")}>
 						Hello, I'm <span className={globalStyles.primaryColorDark}>Brenden.</span><br/><br />
-						I'm a <span className={globalStyles.primaryColorMedium}>full stack web developer</span><br /> and I make <span className={globalStyles.primaryColorMedium}>cool projects</span>
+						I'm a <span className={globalStyles.primaryColorMedium}>full stack web developer</span><br /> and I make <span className={globalStyles.primaryColorMedium}>actionable software</span>
 					</h1>
 				</div>
 			</PageStyle>
