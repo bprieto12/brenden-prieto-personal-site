@@ -8,7 +8,13 @@
             "description": "A stock app with more context than the average",
             "created-date": "2020-07-10",
             "link": "https://simple-stock-comparison.herokuapp.com/",
-            "github": "https://github.com/bprieto12/stock-comparison-tool"
+            "github": "https://github.com/bprieto12/stock-comparison-tool",
+            "details": "Fetch is the canonical way to do HTTP requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like nock to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the jest.fn() methods are also available. For more information on the jest mock API, check their docs here.  It currently supports the mocking with the cross-fetch polyfill, so it supports Node.js and any browser-like runtime.",
+            "technologies": [
+                {"web technologies": ["HTML", "CSS", "Javascript"]},
+                {"backend frameworks": ["NodeJS", "Express"]},
+                {"frontend frameworks": ["ReactJS", "Redux"]}
+            ]
         },
         {
             "id": 1,
@@ -18,7 +24,13 @@
             "description": "A webapp that allows electric vehicle owners to search for nearby homes where they can charge their car",
             "created-date": "2020-01-20",
             "link": "http://outletprototype.web.illinois.edu/",
-            "github": "https://github.com/bprieto12/cs-411-project"
+            "github": "https://github.com/bprieto12/cs-411-project",
+            "details": "Fetch is the canonical way to do HTTP requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like nock to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the jest.fn() methods are also available. For more information on the jest mock API, check their docs here It currently supports the mocking with the cross-fetch polyfill, so it supports Node.js and any browser-like runtime.",
+            "technologies": [
+                {"web technologies": ["HTML", "CSS", "Javascript"]},
+                {"backend frameworks": ["NodeJS", "Express"]},
+                {"frontend frameworks": ["ReactJS"]}
+            ]
         },
         {
             "id": 2,
@@ -28,7 +40,11 @@
             "description": "Undergraduate course project.  None of my project partners knew how to play a guitar so we taught a guitar to play one in two weeks.",
             "created-date": "2016-12-20",
             "link": "",
-            "github": "https://github.com/bprieto12/149_project"
+            "github": "https://github.com/bprieto12/149_project",
+            "details": "Fetch is the canonical way to do HTTP requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like nock to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the jest.fn() methods are also available. For more information on the jest mock API, check their docs here It currently supports the mocking with the cross-fetch polyfill, so it supports Node.js and any browser-like runtime.",
+            "technologies": [
+                {"programming language": ["Python"]}
+            ]
         }
     ]
 }

@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import styles from "./ProjectPreview.module.css";
 // <img alt={this.props.project_details.title} src={this.props.project_details.img_url} />
+import { withRouter } from 'react-router-dom';
 import globalStyles from '../../../global/styles.module.css';
 
 class ProjectPreview extends Component {
+	handleRedirect = (toAddr) => {
+		console.log("in handle redirect: ", toAddr);
+		this.props.history.push(toAddr);
+	}
+
 	render() {
 		return (
-			<div className={styles.ProjectPreview}>
+			<div onClick={() => this.handleRedirect(`/projects/${this.props.project_details["project-name"]}`)} className={styles.ProjectPreview}>
 				<div className={styles.tint}>
 					<img alt={this.props.project_details.description} src={this.props.project_details.img_url} />
 				</div>
@@ -27,4 +33,4 @@ class ProjectPreview extends Component {
 	}
 }
 
-export default ProjectPreview;
+export default withRouter(ProjectPreview);

@@ -1,0 +1,63 @@
+.MainContent {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-right: 32px;
+}
+
+.MetaContent {
+    float: left;
+    width: 40%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.ProjectDetails {
+    overflow: hidden;
+}
+
+.Details {
+    color: #334E68;
+    font-size: 16px;
+}
+
+.ProjTitle {
+    color: #334E68;
+    font-size: 16px;
+}
+
+.MetadataTitle {
+    color: #829AB1;
+    font-size: 16px;
+}
+
+.MetadataContent {
+    color: #334E68;
+    font-size: 16px;
+}
+
+.link {
+    cursor: pointer;
+}
+
+a {
+    color: #334E68;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    .MainContent {
+        float: none;
+        width: 100%;
+    }
+    
+    .MetaContent {
+        margin-top: 24px;
+        float: none;
+        width: 100%;
+    }
+}

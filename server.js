@@ -21,6 +21,10 @@ app.get('/projects', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
 });
 
+app.get('/projects/:id', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
+});
+
 app.get('/about', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client/build', 'index.html'))
 });
@@ -37,8 +41,25 @@ app.get("/api/personalProjects", (req, res) => {
     res.sendFile(path.resolve(__dirname, 'app_db/personal_project_db.json'));
 });
 
-app.get('/proxy/projects/:id', (req, res) => {
-    
+app.get('/proxy/projects/:project_name', (req, res) => {
+    if (!req.params.project_name) {
+        return res.status(400).json({"message": "project name must be set"});
+    }
+
+    fs.readFile(path.resolve(__dirname, 'app_db/personal_project_db.json'), (err, jsonString) => {
+        try {
+            let raw_projects = JSON.parse(jsonString);
+            let project = raw_projects.data.find(proj => proj["project-name"] === req.params.project_name);
+           
+            if (!project) {
+                res.status(400).json({"message": "unable to find requested project"})
+            } else {
+                res.status(200).json(project);
+            }
+        } catch (err) {
+            res.status(400).json({"message": "error in request for project details"});
+        }
+    })
 });
 
 app.get("/api/img/:id", (req, res) => {
