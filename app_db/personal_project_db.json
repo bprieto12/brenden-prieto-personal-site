@@ -9,7 +9,7 @@
             "created-date": "2020-07-10",
             "link": "https://simple-stock-comparison.herokuapp.com/",
             "github": "https://github.com/bprieto12/stock-comparison-tool",
-            "details": "Fetch is the canonical way to do HTTP requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like nock to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the jest.fn() methods are also available. For more information on the jest mock API, check their docs here.  It currently supports the mocking with the cross-fetch polyfill, so it supports Node.js and any browser-like runtime.",
+            "details": "Details to come",
             "technologies": [
                 {"web technologies": ["HTML", "CSS", "Javascript"]},
                 {"backend frameworks": ["NodeJS", "Express"]},
@@ -25,10 +25,11 @@
             "created-date": "2020-01-20",
             "link": "http://outletprototype.web.illinois.edu/",
             "github": "https://github.com/bprieto12/cs-411-project",
-            "details": "Fetch is the canonical way to do HTTP requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like nock to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the jest.fn() methods are also available. For more information on the jest mock API, check their docs here It currently supports the mocking with the cross-fetch polyfill, so it supports Node.js and any browser-like runtime.",
+            "details": "<div><p><i>(Note: this was a class project using fake data)</i></p><p>Outlet is the gig economy for the electric vehicle charging space.  It is a web application with the intent to allow homeowners to advertise their homes as a charging station for electric vehicles. Homeowners would interact with the app by sharing their home location as a “charging station” and Drivers would be able to find these closest “charging stations” next to them.  However, at the moment, the functionality to register a home and modify availability is not yet available, so the app currently functions as a way for EV drivers to find home charging stations near them, update their vehicles, and view their transaction history.</p><p><b>Motivation</b><br />To get a decent amount of charge, electric vehicles can expect to take 15 minutes or more at a charging station.  Compared to the 3-5 minutes at a gas pump, the 15 minutes or more at a plug represents a paradigm shift that requires a new way to think about how we fuel our vehicles.  While this issue hasn’t created too many problems yet, as the number of electric vehicles on the road increases, the current EV charging grid won’t be able to handle the demand of the vehicles on the road.  This application solves two problems: it balances the load of electric vehicle drivers searching for a charging station, and it shrinks the distance-gap between drivers and charging stations.   Your next charging station is only a couple of houses away.</p><p><b>Details</b><br />This is a Node.js application using the React Framework for the front-end and a MySQL database for storing users, vehicles, homes, and transactions.  See the ER diagram below for more database insights.<p><img src='../../../img/outlet_er_diagram.png'/></p></p></div>",
             "technologies": [
                 {"web technologies": ["HTML", "CSS", "Javascript"]},
                 {"backend frameworks": ["NodeJS", "Express"]},
+                {"database": ["MySQL"]},
                 {"frontend frameworks": ["ReactJS"]}
             ]
         },
@@ -41,9 +42,11 @@
             "created-date": "2016-12-20",
             "link": "",
             "github": "https://github.com/bprieto12/149_project",
-            "details": "Fetch is the canonical way to do HTTP requests in the browser, and it can be used in other environments such as React Native. Jest Fetch Mock allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests. It's easy to setup and you don't need a library like nock to get going and it uses Jest's built-in support for mocking under the surface. This means that any of the jest.fn() methods are also available. For more information on the jest mock API, check their docs here It currently supports the mocking with the cross-fetch polyfill, so it supports Node.js and any browser-like runtime.",
+            "demo_video": "https://www.youtube.com/embed/TeNOv3EGW28",
+            "details": "details to come",
             "technologies": [
-                {"programming language": ["Python"]}
+                {"programming language": ["Python"],
+                 "hardware": ["Raspberry Pi"]}
             ]
         }
     ]

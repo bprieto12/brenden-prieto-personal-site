@@ -51,7 +51,10 @@ class ProjectDetails extends Component {
                     <div className="MainContent">
                         <h2 style={{fontSize: 32, color: "#334E68"}}>{this.state.data["title"]}</h2>
                         <hr />
-                        <p className="Details">{this.state.data.details}</p>
+                        <p className="Details">
+                            <DemoVideo url={this.state.data.demo_video} />
+                            <div dangerouslySetInnerHTML={{__html: this.state.data.details}} />
+                        </p>
                     </div>
                     <div className="MetaContent">
                         {
@@ -108,16 +111,42 @@ class ProjectDetails extends Component {
     }
 }
 
+const DemoVideo = (props) => {
+    if (!props.url) return "";
+
+    return (
+        <div className="video"
+            style={{
+            position: "relative",
+            paddingBottom: "56.25%" /* 16:9 */,
+            paddingTop: 25,
+            marginTop: 24,
+            marginBottom: 24,
+            height: 0
+        }}>
+            <iframe style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%"
+            }} src={props.url}
+            allowFullScreen />
+        </div>
+    )
+}
+
 const TechDetails = (props) => {
-    if (!props.techology) return "";
+    console.log(props);
+    if (!props.technology) return "";
 
     const label = Object.keys(props.technology)[0]
     return (
-        <div>
-            <div style={{textAlign: "left"}}>
+        <div style={{overflow: 'hidden'}}>
+            <div style={{float: "left"}}>
                 <i>{label}</i>
             </div>
-            <div style={{textAlign: "right"}}>
+            <div style={{float: "right"}}>
                 {
                     props.technology[label].join(", ")
                 }

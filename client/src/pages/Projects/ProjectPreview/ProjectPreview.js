@@ -24,7 +24,6 @@ class ProjectPreview extends Component {
 						<div style={{display: "inline-block"}}><a href={this.props.project_details.github}>repo</a></div>
 					</div>
 					<div className={[styles.Content, globalStyles.primaryTextColor].join(" ")}>
-						{/* <p>{this.props.project_details.category}</p> */}
 						<p>{this.props.project_details.description}</p>
 					</div>
 				</div>
