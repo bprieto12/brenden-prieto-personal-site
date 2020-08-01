@@ -12,9 +12,12 @@ class ProjectPreview extends Component {
 
 	render() {
 		return (
-			<div onClick={() => this.handleRedirect(`/projects/${this.props.project_details["project-name"]}`)} className={styles.ProjectPreview}>
-				<div className={styles.tint}>
-					<img alt={this.props.project_details.description} src={this.props.project_details.img_url} />
+			<div className={styles.ProjectPreview} 
+			     onClick={() => this.handleRedirect(`/projects/${this.props.project_details["project-name"]}`)} >
+				<div className={styles.ImgContainer}>
+					<div className={styles.tint}>
+						<img alt={this.props.project_details.description} src={this.props.project_details.img_url} />
+					</div>
 				</div>
 				<div className={styles.PreviewDetails}>
 					<h6 className={[styles.ProjectTitle, globalStyles.primaryColorDark].join(' ')}>{this.props.project_details.title}</h6>
