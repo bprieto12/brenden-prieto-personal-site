@@ -9,7 +9,7 @@
             "created-date": "2020-07-10",
             "link": "https://simple-stock-comparison.herokuapp.com/",
             "github": "https://github.com/bprieto12/stock-comparison-tool",
-            "details": "Details to come",
+            "details": "<div><p>Simple Stock Analysis attempts to provide a little more context around stocks than the typical stock app like Yahoo Finance and Apple Stocks.  It leverages the Yahoo Finance API to provide up-to-date stock performance, alongside historical performance, company details like profit margin, debt, and a description, and also provides the company website.  In the future, I'd also like to allow for hypothetical stock investing using fake money.</p><p><b>Details</b><br />This is a Node.js app using React for the front-end and Redux for state management.</p></div>",
             "technologies": [
                 {"web technologies": ["HTML", "CSS", "Javascript"]},
                 {"backend frameworks": ["NodeJS", "Express"]},
@@ -35,15 +35,15 @@
         },
         {
             "id": 2,
-            "project-name": "guitar-allen-peng",
-            "title": "Guitar Allan Peng",
+            "project-name": "play-it-by-ear",
+            "title": "Play it by Ear",
             "img_url": "/api/img/2",
             "description": "Undergraduate course project.  None of my project partners knew how to play a guitar so we taught a guitar to play one in two weeks.",
             "created-date": "2016-12-20",
             "link": "",
             "github": "https://github.com/bprieto12/149_project",
             "demo_video": "https://www.youtube.com/embed/TeNOv3EGW28",
-            "details": "details to come",
+            "details": "<div><p>This isn't related to my web development interests but it was super fun.  Play it by Ear was a final project for an Embedded Programming course I took in undergrad.  The idea was, we wanted to create a self-playing guitar that could run on our command.  So, combining our talents as Mechical, Electrical, and Computer Engineers, we built out this guitar and we successfully made it play \"Day Tripper\" by the Beatles and \"Landslide\" by Fleetwood Mac when we asked through voice command.</p><p><b>Details</b><br />The software was written all in python and runs on a Raspberry Pi.  We also used a Speech-to-Text library, Jasper, to allow for voice commands.</p></div>",
             "technologies": [
                 {"programming language": ["Python"],
                  "hardware": ["Raspberry Pi"]}
