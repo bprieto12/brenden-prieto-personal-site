@@ -8,7 +8,13 @@
             "description": "A stock app with more context than the average",
             "created-date": "2020-07-10",
             "link": "https://simple-stock-comparison.herokuapp.com/",
-            "github": "https://github.com/bprieto12/stock-comparison-tool"
+            "github": "https://github.com/bprieto12/stock-comparison-tool",
+            "details": "<div><p>Simple Stock Analysis attempts to provide a little more context around stocks than the typical stock app like Yahoo Finance and Apple Stocks.  It leverages the Yahoo Finance API to provide up-to-date stock performance, alongside historical performance, company details like profit margin, debt, and a description, and also provides the company website.  In the future, I'd also like to allow for hypothetical stock investing using fake money.</p><p><b>Details</b><br />This is a Node.js app using React for the front-end and Redux for state management.</p></div>",
+            "technologies": [
+                {"web technologies": ["HTML", "CSS", "Javascript"]},
+                {"backend frameworks": ["NodeJS", "Express"]},
+                {"frontend frameworks": ["ReactJS", "Redux"]}
+            ]
         },
         {
             "id": 1,
@@ -18,17 +24,30 @@
             "description": "A webapp that allows electric vehicle owners to search for nearby homes where they can charge their car",
             "created-date": "2020-01-20",
             "link": "http://outletprototype.web.illinois.edu/",
-            "github": "https://github.com/bprieto12/cs-411-project"
+            "github": "https://github.com/bprieto12/cs-411-project",
+            "details": "<div><p><i>(Note: this was a class project using fake data)</i></p><p>Outlet is the gig economy for the electric vehicle charging space.  It is a web application with the intent to allow homeowners to advertise their homes as a charging station for electric vehicles. Homeowners would interact with the app by sharing their home location as a “charging station” and Drivers would be able to find these closest “charging stations” next to them.  However, at the moment, the functionality to register a home and modify availability is not yet available, so the app currently functions as a way for EV drivers to find home charging stations near them, update their vehicles, and view their transaction history.</p><p><b>Motivation</b><br />To get a decent amount of charge, electric vehicles can expect to take 15 minutes or more at a charging station.  Compared to the 3-5 minutes at a gas pump, the 15 minutes or more at a plug represents a paradigm shift that requires a new way to think about how we fuel our vehicles.  While this issue hasn’t created too many problems yet, as the number of electric vehicles on the road increases, the current EV charging grid won’t be able to handle the demand of the vehicles on the road.  This application solves two problems: it balances the load of electric vehicle drivers searching for a charging station, and it shrinks the distance-gap between drivers and charging stations.   Your next charging station is only a couple of houses away.</p><p><b>Details</b><br />This is a Node.js application using the React Framework for the front-end and a MySQL database for storing users, vehicles, homes, and transactions.  See the ER diagram below for more database insights.<p><img src='../../../img/outlet_er_diagram.png'/></p></p></div>",
+            "technologies": [
+                {"web technologies": ["HTML", "CSS", "Javascript"]},
+                {"backend frameworks": ["NodeJS", "Express"]},
+                {"database": ["MySQL"]},
+                {"frontend frameworks": ["ReactJS"]}
+            ]
         },
         {
             "id": 2,
-            "project-name": "guitar-allen-peng",
-            "title": "Guitar Allan Peng",
+            "project-name": "play-it-by-ear",
+            "title": "Play it by Ear",
             "img_url": "/api/img/2",
             "description": "Undergraduate course project.  None of my project partners knew how to play a guitar so we taught a guitar to play one in two weeks.",
             "created-date": "2016-12-20",
             "link": "",
-            "github": "https://github.com/bprieto12/149_project"
+            "github": "https://github.com/bprieto12/149_project",
+            "demo_video": "https://www.youtube.com/embed/TeNOv3EGW28",
+            "details": "<div><p>This isn't related to my web development interests but it was super fun.  Play it by Ear was a final project for an Embedded Programming course I took in undergrad.  The idea was, we wanted to create a self-playing guitar that could run on our command.  So, combining our talents as Mechical, Electrical, and Computer Engineers, we built out this guitar and we successfully made it play \"Day Tripper\" by the Beatles and \"Landslide\" by Fleetwood Mac when we asked through voice command.</p><p><b>Details</b><br />The software was written all in python and runs on a Raspberry Pi.  We also used a Speech-to-Text library, Jasper, to allow for voice commands.</p></div>",
+            "technologies": [
+                {"programming language": ["Python"],
+                 "hardware": ["Raspberry Pi"]}
+            ]
         }
     ]
 }

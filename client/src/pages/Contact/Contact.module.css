@@ -1,5 +1,11 @@
 .Contact {
     width: 500px;
     margin: auto;
-    min-height: 960px;
+    min-height: 900px;
+}
+
+@media (max-width: 900px) {
+    .Contact {
+        width: 200px;
+    }
 }

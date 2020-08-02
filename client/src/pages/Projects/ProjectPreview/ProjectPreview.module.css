@@ -12,34 +12,25 @@
 	text-decoration: underline;
 }
 
-
 .PreviewDetails {
 	margin-top: 24px;
 } 
-
 
 .Content {
 	/* font-family: "Franklin Gothic"; */
 	font-size: 14px;
 }
 
-
-img {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-}
-
-.ProjImgContainer {
+/* .ProjImgContainer {
 	width: 250px;
 	height: 250px;
 	margin: auto;
 	border-radius: 50%;
 	position: relative;
 	box-shadow: rgba(0,0,0,.5) 3px 5px 5px;
-}
+} */
 
-.ProjImgContainer:before {
+/* .ProjImgContainer:before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -48,19 +39,19 @@ img {
 	left: 0;
 	right: 0;
 	background: rgba(0,0,0,.5);
-}
+} */
 
 .tint {
 	position: relative;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	border-radius: 50%;
+	/* border-radius: 50%; */
+	left: 50%;
+	transform: translateX(-50%);
 	cursor: pointer;
-	box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
-  }
-  
-  .tint:before {
+	width: 250px;
+	/* box-shadow: rgba(0,0,0,.2) 3px 5px 5px; */
+}
+
+.tint:before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -69,16 +60,32 @@ img {
 	left: 0;
 	right: 0;
 	border-radius: 50%;
+	/* box-shadow: rgba(0,0,0,.2) 3px 5px 5px; */
 	background: rgba(0,0,0,.2);
-  }
+}
 
-  .tint > img {
-	  display: block;
-  }
+div.tint > img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	/* display: block;
+	margin-left: auto;
+	margin-right: auto; */
+	/* filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg); */
+}
+
+.ImgContainer {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	/* overflow: hidden; */
+}
 
 @media (max-width: 800px) {
 	.ProjectPreview {
-		margin-left: 24px;
-		margin-right: 24px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
 	}
 }

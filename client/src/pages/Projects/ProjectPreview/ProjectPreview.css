@@ -47,7 +47,8 @@
 	color: #3AAFA9;
 }
 
-img {
+
+div.tint > img {
 	width: 100%;
 	height: 60%;
 }
